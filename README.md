@@ -60,7 +60,7 @@ Put Obama, Biden, Trump, Gates, Zuckerberg and Pages' images visualized by 3D PC
 
 > Face detection
 
-<div align=center><img src="C:\Users\think\Desktop\Face-recognition\b-image-face-detection\data\detectedimage.png" alt="detectedimage" width="35%" height="35%" /></div>
+<div align=center><img src="b-image-face-detection\data\detectedimage.png" alt="detectedimage" width="35%" height="35%" /></div>
 
 This is a example for recognize Obama's face.
 
