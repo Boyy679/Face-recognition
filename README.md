@@ -7,35 +7,35 @@ This project mainly has 4 sections to do face recognition:
 * Section3: Web Camera Face Detection
 * Section4: Video Face Detection
 
-> **Section1：Face Feature Extraction**
+### Section1：Face Feature Extraction
 
 This part shows the basic face recognition principles, including facial features and Facial embedding.
 
-- Facial features:
+> **Facial features:** 
 
-  Basic ides in facial recognition in normal face is come up with 68 specific points(landmarks), including the chin, left eyebrow, right eyebrow, nose bridge, nose tip, left eye, right eye, top lip and bottom lip.
+Basic ides in facial recognition in normal face is come up with 68 specific points(landmarks), including the chin, left eyebrow, right eyebrow, nose bridge, nose tip, left eye, right eye, top lip and bottom lip.
 
 <div align=center><img src="a-Face-Feature-Extraction/data/image-20230420113930714.png" alt="image-20230420113930714" width="25%" height="25%" /></div>
 
-We use bidden face as example to finish this job. This face will look like the following picture after 	face feature extract.
+We use bidden face as example to finish this job. This face will look like the following picture after face feature extract.
 
 <div align=center><img src="a-Face-Feature-Extraction/data/image-20230420114200128.png" alt="image-20230420114200128" width="25%" height="25%"  /></div>
 
-- Facial Embedding: 
+> **Facial Embedding:** 
 
-  In this part, each person's face information will store as a vector.
+In this part, each person's face information will store as a *vector*.
 
-  - Compare two face distance
-    - faces with a distance of 0.6 or less should be a match.
-    - using a 0.55 cutoff (if want to be more strict; cutoff would reduce false positive matches at the risk of more false negatives)
+- Compare two face distance
+  - faces with a distance of **0.6 or less** should be a match.
+  - using a **0.55 cutoff** (if want to be more strict; cutoff would reduce false positive matches at the risk of more false negatives)
 
-  For example, we calculate the distance between Biden, Trump and Obama(by using TSNE):
+For example, we calculate the distance between Biden, Trump and Obama(by using *TSNE*):
 
-  <div align=center><img src="a-Face-Feature-Extraction/data/distance.png" alt="distance" width="25%" height="25%"/></div>
+<div align=center><img src="a-Face-Feature-Extraction/data/distance.png" alt="distance" width="35%" height="35%"/></div>
 
-  
-  
-  
+### Section2: Image Face Detection
+
+
 
 
 
