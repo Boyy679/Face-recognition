@@ -1,11 +1,12 @@
 # Face Recognition
 
-This project mainly has 4 sections to do face recognition:
+This project mainly has 5 sections to do face recognition:
 
 * Section1: Face Feature Extraction
 * Section2: Image Face Detection
 * Section3: Web Camera Face Detection
-* Section4: Video Face Detection
+* Section4: Video Face Classify
+* Section5: Video Face detection
 
 ### Section1：Face Feature Extraction
 
@@ -82,27 +83,50 @@ When you run the code, the PC camera will open, and if you don't input some face
 
 <div align=center><img src="c-webcamera-face-detection\note\unknown.png" alt="unknown" width="35%" height="35%" /></div>
 
-### Section4: Video Face Detection
+### Section4: Video Face Classify
 
+We input a test video for the program and use T-SNE transform to do a face classify.
 
+Then, we see the face encoding distribution in this video:
 
+<div align=center><img src="d-video-face-classify\data\plot.png" alt="plot" width="40%" height="40%" /></div>
 
+Because in this test video, mainly has 2 people, so we can clearly to see 2 point clusters.
 
+### Section5: Video Face Detection
 
+This is a video face detect code which can used to label the faces in the video and output. 
 
+This project use *Little Sheldon* video clip to do this part, the dataset like the following tree:
 
+```
+Tree
+Dataset/George
+			01.jpg
+			02.jpg
+			...
+		Georgie
+			01.jpg
+			02.jpg
+			...
+		Librarian
+			01.jpg
+			02.jpg
+			...
+		Little Shelton
+			01.jpg
+			02.jpg
+			...
+		... ...
+```
 
+The output of like the following one, left is input and the right is output result:
 
+<div align=center><img src="e-video-face-detection\data\image-20230420233342596.png" alt="image-20230420233342596" style="zoom:80%;" /></div>
 
+And the face detection for *little Shelton*
 
-
-
-
-
-
-
-
-
+<div align=center><img src="e-video-face-detection\data\image-20230420233655343.png" alt="image-20230420233655343"  /></div>
 
 
 
