@@ -11,7 +11,7 @@ This project mainly has 4 sections to do face recognition:
 
 This part shows the basic face recognition principles, including facial features and Facial embedding.
 
-- **Facial features:** 
+- Facial features:
 
   Basic ides in facial recognition in normal face is come up with 68 specific points(landmarks), including the chin, left eyebrow, right eyebrow, nose bridge, nose tip, left eye, right eye, top lip and bottom lip.
 
@@ -21,7 +21,7 @@ We use bidden face as example to finish this job. This face will look like the f
 
 ![image-20230420114200128](a-Face-Feature-Extraction/data/image-20230420114200128.png)
 
-- **Facial Embedding: **
+- Facial Embedding: 
 
   In this part, each person's face information will store as a vector.
 
